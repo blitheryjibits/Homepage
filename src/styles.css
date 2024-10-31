@@ -1,0 +1,86 @@
+:root, * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-width: 80%;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    padding: .5rem;
+    max-width: 100%;
+}
+
+.info-cnt {
+    display: flex;
+    justify-content: center;
+    width: var(--main-width);
+}
+
+.img-cnt {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    background-image: url('./images/computer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:30vh;
+    min-height: 300px;
+    max-height: 350px; 
+    padding: .5rem;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    color:antiquewhite;
+    font-size: 2rem;
+    line-height: 3rem;
+    padding: .5rem 0;
+}
+
+.about-me {
+    padding: .5rem;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    padding: .5rem;
+}
+
+#project-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: var(--main-width);
+    min-width: 150px;
+    max-width: 300px;
+    overflow-wrap:anywhere;
+}
+
+.project-img-cnt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100px;
+    width: 100%;
+    background-color: beige;
+    margin: .5rem;
+}
