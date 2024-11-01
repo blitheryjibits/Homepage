@@ -12,6 +12,7 @@ export default function createHeader(lorem) {
     imgCnt.classList.add('img-cnt');
     abtme.classList.add('about-me');
     name.classList.add('name');
+    name.classList.add('title');
     infoCnt.classList.add('info-cnt');
 
     imgCnt.appendChild(name);
