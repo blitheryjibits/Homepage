@@ -3,6 +3,7 @@ import myImage from './images/computer.jpg';
 const projects = require('./project-data.json');
 import createProjectCards from './create-project-cards';
 import createHeader from './create-header';
+import createFooter from './create-footer';
 import { LoremIpsum } from "lorem-ipsum";
 
 const lorem = new LoremIpsum({
@@ -22,3 +23,6 @@ header.append(createHeader(lorem));
 
 const main = document.getElementById('main');
 main.append(createProjectCards(projects, lorem));
+
+const footer = document.getElementById('footer');
+footer.append(createFooter());
