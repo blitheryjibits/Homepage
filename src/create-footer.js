@@ -37,10 +37,10 @@ export default function createFooter() {
     // Insert data to elements
     title.textContent = "Contact Me";
     foot_msg.textContent = "Please get in touch if you think our work could be mutually beneficial!";
-    street.textContent = "123 Maple Street";
-    state.textContent = "Springfield, Illinois";
-    phone.textContent = "(217) 555-1234";
-    email.textContent = "example@example.com";
+    street.textContent = "Sos Pipera-Tunari 198/4, L3B1 S1 Ap. 7";
+    state.textContent = "077190 Voluntari, ILFOV,  Romania";
+    phone.textContent = "+40 0729 602 079";
+    email.textContent = "robert.thornton92@gmail.com";
 
     // Insert Icons
     icon_cnt.insertAdjacentHTML('beforeend', github);
