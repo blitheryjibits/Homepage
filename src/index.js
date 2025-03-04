@@ -1,5 +1,4 @@
 import './styles.css';
-import myImage from './images/computer.jpg';
 const projects = require('./project-data.json');
 import createProjectCards from './create-project-cards';
 import createHeader from './create-header';
