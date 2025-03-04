@@ -17,6 +17,15 @@
   font-style: normal;
 }
 
+#main-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+#main-container footer:last-child {
+    justify-self:baseline;
+}
+
 #header {
     display: flex;
     justify-content: center;
@@ -112,6 +121,9 @@
     max-height: 30px;
 }
 
+#main {
+    flex: 1;
+}
 .projects-title {
     display: flex;
     justify-content: center;
@@ -171,6 +183,14 @@
     background-color: var(--background-color);
     padding: 1rem;
     margin-top: 1rem;
+    color: rgb(255, 255, 255);
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-color);
+    padding: 1rem;
     color: rgb(255, 255, 255);
 }
 
@@ -253,6 +273,9 @@
 }
 
 @media screen and (min-width: 960px) {
+    .info-cnt {
+        max-width: 70%;
+    }
     .img-cnt {
         max-height: 45vh;
         max-width: 340px;
@@ -266,7 +289,10 @@
         text-indent: -10%;
     }
     .abtme-title {
-        font-size: 2.5rem;
+        font-size: 2em;
+    }
+    .abtme-info {
+        font-size: 1.3rem;
     }
     .abtme-icons {
         justify-content: right;
